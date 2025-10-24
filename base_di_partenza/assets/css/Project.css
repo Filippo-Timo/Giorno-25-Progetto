@@ -18,7 +18,7 @@ header {
 }
 
 #logo {
-  margin-right: 42%;
+  margin-right: 39%;
   width: 201px;
   height: 65px;
 }
@@ -126,7 +126,7 @@ svg {
   font-size: 2.5em;
   font-weight: bold;
   margin-right: 25px;
-  color: darkgray;
+  color: rgba(169, 169, 169, 0.382);
 }
 
 .img-name {
@@ -157,4 +157,142 @@ svg {
 
 main hr {
   border: 1px solid #cacaca43;
+}
+
+/* QUI INIZIA LA MAIN PART CON LE DUE COLONNE TRA CUI QUELLA CON GLI ARTICOLI */
+
+#main-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 145px;
+}
+
+/* COLONNA DI SINISTRA */
+
+#left-column {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 50px;
+  width: 850px;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.article-img-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.article-img-name img {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.article-h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.article-p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.474);
+}
+
+span {
+  color: rgba(0, 0, 0, 0.407);
+}
+
+.article-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-date {
+  color: #cacaca;
+  margin-right: 10px;
+}
+
+.article-a {
+  text-decoration: none;
+  background-color: #cacaca30;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.37);
+}
+
+.right-img img {
+  width: 260px;
+  /* padding-left: 70px; */
+}
+
+/* COLONNA DI DESTRA */
+
+#right-column {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 450px;
+}
+
+#right-column-h2 {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#second-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 40px;
+  margin-bottom: 25px;
+}
+
+#second-part a {
+  color: rgba(128, 128, 128, 0.714);
+  padding: 13px 20px;
+  border: 1px solid lightgray;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+#third-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+#third-part-first-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#third-part-first-div a {
+  color: rgba(128, 128, 128, 0.714);
+  padding: 10px 15px;
+  text-decoration: none;
+  padding-top: 25px;
+}
+
+#third-part-second-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#third-part-second-div a {
+  color: rgba(128, 128, 128, 0.714);
+  padding: 10px 15px;
+  text-decoration: none;
 }
